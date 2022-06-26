@@ -1,0 +1,66 @@
+.contact-form-container{
+    max-width:1920px;
+    max-height: 1024px;
+    background-image: url("../assets/images/Background-Contact-Form.jpg") ;
+}
+
+.contact-form{
+    
+
+    margin-top:80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.form-details{
+    display: flex;
+}
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-title{
+    font-size: 38px;
+    font-family: $font-base;
+    font-weight: 500;
+    color:$darkGrayColor;
+    padding-top:70px;
+}
+
+.form-decoration{
+    margin: 40px 0 77px 0;
+}
+
+.form{
+    max-width:528px;
+}
+
+.form-name{
+
+}
+.form-input-name{
+    
+background-color: none;
+  border: none;
+  box-shadow:0 0 4px rgba(0,0,0,0.3);
+  transition: 0.3s box-shadow;
+}
+
+.form-mail{
+
+}
+
+.form-message{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-button{
+
+}

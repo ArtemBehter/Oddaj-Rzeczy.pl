@@ -1,0 +1,88 @@
+.four-steps-container{
+    width: 100%;
+}
+
+.four-steps-block{
+    width: 100%;
+    margin: 55px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four-steps-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+ .four-steps-title {
+    font-family: $font-base;
+    font-size: 38px;
+    color:$darkGrayColor;
+    font-weight: 600;
+}
+
+.four-steps-icon{
+    margin: 40px 0 40px 0;
+}
+
+.four-steps-items_block{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #F0F1F1 0% 0% no-repeat padding-box;
+}
+
+.four-steps-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 75px 0 75px 0;
+}
+
+.four-steps-item_image{
+
+}
+
+.four-steps-item_title{
+    font-family: $font-base;
+    font-size: 18px;
+    color:$darkGrayColor;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+}
+
+.four-steps-item_line{
+    width: 70px;
+    border-bottom: 2px solid black;
+    margin:8px 0 8px 0;
+}
+
+.four-steps-item_paragraph{
+    font-family: $font-base;
+    font-size: 18px;
+    color:$darkGrayColor;
+    font-weight: 600;
+}
+
+.four-steps-button{
+    width: 310px;
+    height: 120px;
+    border: 0.75px solid #3C3C3C;
+    background-color: #fff;
+    font-family: $font-base;
+    font-size: 29px;
+    font-weight: 300;
+    color:$darkGrayColor;
+    margin: 25px 0 80px 0;
+    transition: box-shadow 0.3s ease 0s;
+
+}
+
+.four-steps-button:hover{
+    box-shadow: 0px 4px 25px rgba(232,231,225,1);
+}

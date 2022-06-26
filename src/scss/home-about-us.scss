@@ -1,0 +1,53 @@
+.about-us-container{
+    max-width:650px;
+    
+}
+
+.about-us-block{
+    max-width: 100%;
+    display: flex;
+}
+
+.about-us-section{
+    padding: 0 120px 0 120px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F0F1F1 0% 0% no-repeat padding-box;
+}
+
+.about-us-title{
+    font-family: $font-base;
+    font-size: 38px;
+    color:$darkGrayColor;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+}
+
+.about-us-decoration{
+    margin: 26px 0 55px 0;
+}
+
+.about-us-paragraph{
+    text-align: center;
+}
+
+.signature{
+    max-width: 100%;
+    display: flex;
+    padding-left:250px;
+}
+
+.about-us-signature{
+
+}
+
+.about-us-image{
+    
+}
+.about-us-img{
+    max-width: 100%;
+    object-fit: cover;
+}
